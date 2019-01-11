@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" dir="ltr" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Notebook Project</title>
+  <link href="./index.css" rel="stylesheet" type="text/css" />
+</head>
+<body id="body">
+  <div id="container">
+    <div id="col-left">
+      <input id="todoInput" maxlength="30" name="todo" placeholder="What to do?" />
+      <div class="hidden" id="instructions">
+        <h3>
+          DblClick a task to delete it
+        </h3>
+        <h3>
+          Click a task to complete it
+        </h3>
+        <h3>
+          Press 'Enter' to record a task
+        </h3>
+        <h3>
+          Press 'Delete' to clear the list
+        </h3>
+      </div>
+    </div>
+  </div>
+  <ul id="ongoing"></ul>
+  <script src="./index.js"></script>
+</body>

@@ -1,0 +1,17 @@
+doctype html
+head
+  meta charset="UTF-8" dir="ltr" /
+  meta content="width=device-width, initial-scale=1.0" name="viewport" /
+  title Notebook Project
+  link href="./index.css" rel="stylesheet" type="text/css" /
+body#body
+  #container
+    #col-left
+      input#todoInput maxlength="30" name="todo" placeholder=("What to do?") /
+      #instructions.hidden
+        h3 DblClick a task to delete it
+        h3 Click a task to complete it
+        h3 Press 'Enter' to record a task
+        h3 Press 'Delete' to clear the list
+  ul#ongoing
+  script src="./index.js"

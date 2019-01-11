@@ -1,0 +1,25 @@
+<svg width="840" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_7_blur">
+   <feGaussianBlur stdDeviation="6.6" in="SourceGraphic"/>
+  </filter>
+  <radialGradient r="2.290648" cy="0" cx="0.210938" spreadMethod="pad" id="svg_8">
+   <stop offset="0" stop-opacity="0.988281" stop-color="#ffffff"/>
+   <stop offset="1" stop-opacity="0.988281" stop-color="#b2b2b2"/>
+  </radialGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="url(#svg_8)" id="canvas_background" height="402" width="842" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect fill-opacity="0" id="svg_1" height="368" width="252" y="15.449843" x="301.518745" stroke-width="6.5" stroke="#000" fill="#0fffff"/>
+  <rect transform="rotate(0.275708, 426.492, 198.993)" filter="url(#svg_7_blur)" id="svg_7" height="356.821977" width="241.044153" y="20.581836" x="305.969855" fill-opacity="0" stroke-width="9.5" stroke="#333333" fill="#0fffff"/>
+  <rect id="svg_2" height="353.210376" width="236.736694" y="22.292039" x="308.834654" fill-opacity="0" stroke-width="9.5" stroke="#ffffff" fill="#0fffff"/>
+ </g>
+</svg>

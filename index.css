@@ -1,0 +1,116 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Shadows Into Light two', cursive;
+  color: #dbdbdb;
+}
+@media screen and (max-width: 600px) {
+  * {
+    font-size: 10px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  ul{
+    padding-left: 10px !important;
+  }
+  input{
+    font-size: 12px !important;
+  }
+}
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 90vh;
+  background: #2a2a2e;
+  margin-top: 40px;
+  width: 95vw;
+}
+i{
+  text-align: left !important;
+  position: relative;
+  margin-left: 30px;
+  background-color: #333338;
+  font-size: 30px;
+  transform: translateX(0);
+  transition: transform 0.5s;
+  transition-timing-function: cubic-bezier(0,-0.21,1,-0.45);
+
+}
+
+i:hover{
+  color: #ef0063;
+}
+.hidden{
+  display: none;
+}
+#container {
+  width: 100%;
+  text-align: center;
+}
+input {
+  border: none;
+  text-align: center;
+  width: 40%;
+  background: transparent;
+  font-size: 40px;
+  padding: 20px;
+  margin-top: 15%;
+  transition: border-bottom 0.5s , box-shadow 0.2s cubic-bezier(.09,1.66,.89,-0.65), margin-top 0.5s;
+}
+.pushUp{
+  margin-top: 0;
+}
+.lightBottom{
+  -webkit-box-shadow: 0 3px #ff3d81;
+  box-shadow: 0 3px #ff3d81;
+}
+.focus{
+  border-bottom: solid 1px #ff0059;
+
+}
+h3{
+  text-shadow: none;
+}
+#inst{
+  display: none;
+}
+#tick {
+  position: relative;
+  z-index: 2;
+}
+#ongoing {
+  list-style: none;
+  font-size: 30px;
+  margin-left: 30%;
+  text-align: center;
+}
+#ongoing li {
+  border-bottom: solid 1px #fff757;
+  width: auto;
+  padding: 20px;
+  max-width: 50%;
+  color: #dbdbdb;
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+}
+#ongoing li:hover {
+  color: #FF0044;
+}
+
+h1{
+  font-family: 'Arial';
+  text-align: center;
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+}
